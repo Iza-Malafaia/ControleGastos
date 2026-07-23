@@ -1,4 +1,4 @@
-# 💰 Sistema de Controle de Gastos Residenciais
+# Sistema de Controle de Gastos Residenciais
 
 Sistema web desenvolvido para gerenciamento e controle de transações financeiras (receitas e despesas) por pessoa de uma residência.
 
@@ -35,26 +35,28 @@ Sistema web desenvolvido para gerenciamento e controle de transações financeir
 git clone https://github.com/Iza-Malafaia/ControleGastos.git
 
 ### 2. Executar o Back-end (.NET Web API)
-# Navegar até a pasta da API
+
+- Navegar até a pasta da API:
 cd ApiControleGastos
 
-# Executar a aplicação  
+- Executar a aplicação (o banco SQLite será criado automaticamente):
 dotnet run
 
-#A API estará rodando em: http://localhost:5233
+#a API estará rodando em: http://localhost:5233
 
 
 ### 3. Executar o Front-end (React + Vite) 
-em outro terminal execute: 
 
+- em outro terminal execute: 
 cd ControleGastos/frontend
-# Instalar as dependências
+
+- Instalar as dependências:
 npm install
 
-# Iniciar o servidor de desenvolvimento
+- Iniciar o servidor de desenvolvimento:
 npm run dev
 
-#O front-end estará rodando em: http://localhost:5173
+#o front-end estará rodando em: http://localhost:5173
 
 
 ```bash
